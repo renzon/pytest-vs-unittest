@@ -2,7 +2,7 @@ import pytest
 
 
 @pytest.mark.parametrize(
-    'value,i',
+    'value',
     range(10)
 )
 def test_multi_param_stuff(value):
