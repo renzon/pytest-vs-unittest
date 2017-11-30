@@ -9,7 +9,7 @@ Comparison between pytest and unittes test frameworks
 | Basic Infra                | Can be only a function             | Inheritance                      | Pytest   |
 | Basic Assertion            | Builtin assert                     | TestCase instance methods        | Pytest   |
 | Flat is better than nested | Function (1 level)                 | Method (2 level)                 | Pytest   |
-| Can run each other test    |               |                  |    |
+| Can run each other test    | Can run unittest tests             | Can't pytest test                | Pytest   |
 | Test Result on console     |       |                   |    |
 | Multi param test           |          |   |    |
 | Test setup                 |  |  |    |
