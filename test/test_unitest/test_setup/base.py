@@ -13,7 +13,7 @@ class SetupBaseTestCase(TestCase):
         cls.conn.close()
 
     def setUp(self):
-        self.session = Session()
+        self.sess = Session()
 
     def tearDown(self):
-        self.session.close()
+        self.sess.close()

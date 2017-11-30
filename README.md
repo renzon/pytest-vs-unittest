@@ -13,6 +13,6 @@ Comparison between pytest and unittes test frameworks
 | Test Result on console     | Error Highlight, code snippet      | Only line error, no highlight    | Pytest   |
 | Multi param test           | Yes, parametrize, keep flat        | Yes, sub-test, increase nesting  | Pytest   |
 | Test setup                 | fixture: module, session, function | Template Method: setup, tearDown | Pytest   |
-| Name Refactoring           |   |  |  |
+| Name Refactoring           | poor, because of name conventions  | rich, regular object orientation | Unittest |
 | Running Failed Tests       |                |                       |    |
 | Marks                      |                            |                       |    |
