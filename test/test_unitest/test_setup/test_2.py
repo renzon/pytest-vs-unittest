@@ -1,3 +1,5 @@
+import pytest
+
 from test.test_unitest.test_setup.base import SetupBaseTestCase
 
 
@@ -10,6 +12,7 @@ class Setup2TestCase(SetupBaseTestCase):
         """Test db deletion"""
         print('######## running delete 2')
 
+    @pytest.mark.non_db
     def test_non_db(self):
         """Test non db"""
         print('######## non db test 2')
